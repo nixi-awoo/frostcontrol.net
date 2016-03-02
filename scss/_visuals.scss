@@ -1,10 +1,25 @@
 body {
-  font-family: $body-font-family;
   background: $body-background;
+  color: $body-color;
+  font-family: $body-font-family;
+}
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $link-hover-color;
+  }
 }
 
 .header {
   background: $header-background url("../img/pattern.png") repeat;
+  font-family: $header-font-family;
+  font-size: $header-font-size;
+
+  a {
+    color: $body-color;
+  }
 }
 
 .nav {
